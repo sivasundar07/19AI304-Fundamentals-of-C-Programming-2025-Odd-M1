@@ -26,6 +26,7 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+~~~
 #include <stdio.h>
 int main()
 {
@@ -39,6 +40,7 @@ int main()
     printf("STRING LITERAL : %s , SIZE OF STRING LITERAL IS : %ld bytes\n", character1, sizeof(character1) );
     return 0;
 }
+~~~
 # Output:
 <img width="1920" height="1080" alt="c1" src="https://github.com/user-attachments/assets/73fa1d6b-41ed-4e33-9271-c7007a5f683b" />
 
@@ -72,6 +74,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+~~~
 #include <stdio.h>
 #define PI 3.14159
 int main()
@@ -81,6 +84,7 @@ int main()
     printf("Value of constant variable DAYS = %d\n", DAYS);
     return 0;
 }
+~~~
 # Output:
 <img width="1920" height="1080" alt="C2" src="https://github.com/user-attachments/assets/148b0131-0def-456b-a958-ba0e95cdcdca" />
 
@@ -107,6 +111,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+~~~
 #include <stdio.h>
 int main()
 {
@@ -129,6 +134,7 @@ int main()
     printf("CHARACTER :%c\n\n", charac);
     
 }
+~~~
 # Output:
 <img width="1920" height="1080" alt="c3" src="https://github.com/user-attachments/assets/03188f0a-ac6d-44db-ab8d-0defe955b24a" />
 
@@ -170,6 +176,7 @@ int main()
 ### Step 8:   
   Stop
 # Program:
+~~~
 #include <stdio.h>
 int main()
 {
@@ -194,6 +201,7 @@ int main()
     printf("NOT b: %d\n", ~b);
     return 0;
 }
+~~~
 # Output:
 <img width="1920" height="1080" alt="c4" src="https://github.com/user-attachments/assets/576b2f9a-9f21-4f30-bf47-8df52fdf4349" />
 
@@ -241,6 +249,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+~~~
 #include <stdio.h>
 int main() 
 {
@@ -253,6 +262,7 @@ int main()
       printf("Vowel") : printf("Consonant"): printf("Special character");
     return 0; 
 }
+~~~
 # Output:
 <img width="1920" height="1080" alt="C5" src="https://github.com/user-attachments/assets/b9fbb8e7-b29d-4077-a207-d96ffdca8758" />
 
